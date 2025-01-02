@@ -151,7 +151,7 @@ def weatherapifunction(myTimer: func.TimerRequest) -> None:
     def fetch_weather_data():
 
         base_url = "http://api.weatherapi.com/v1/"
-        location = "Lusaka"  # You can replace with any city name based on your preference
+        location = "Warsaw"  # You can replace with any city name based on your preference
 
         # Fetch the API key from Key Vault
         VAULT_URL = "https://weather-data-kv.vault.azure.net/"
