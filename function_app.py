@@ -6,7 +6,7 @@ from azure.eventhub import EventHubProducerClient, EventData
 from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 
-# author "stochasticquant"
+# author "stochasticquant"  : @stochasticquant
 
 app = func.FunctionApp()
 
