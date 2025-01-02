@@ -6,6 +6,8 @@ from azure.eventhub import EventHubProducerClient, EventData
 from azure.identity import DefaultAzureCredential
 from azure.keyvault.secrets import SecretClient
 
+# author "stochasticquant"
+
 app = func.FunctionApp()
 
 @app.timer_trigger(schedule="*/30 * * * * *", arg_name="myTimer", run_on_startup=False,
